@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>忘年会企画sample</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+</head>
+<body>
+<a href="count.html">count.html</a>
+<div id="app">
+    <h1>{{ rnd_name }}</h1>
+    <div id="timer">
+            <div class="time">
+                {{ formatTime }}
+            </div>
+    </div>
+    <select v-model="selected" v-on:change="init">
+        <option v-for="val in members" v-bind:value="val.kana">
+            {{val.choice}}
+        </option>
+    </select>
+    <div>
+        <button v-on:click="startFunc">スタート</button>
+        <button v-on:click="stop" v-if="timerOn">ストップ</button>
+    </div>
+</div><!-- #app End -->
+</body>
+<script src="js/jaeger.js"></script>
+</html>
