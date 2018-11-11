@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<a href="count.html">count</a>
-<a href="sample01.html">sample</a>
-</body>
+<meta charset="UTF-8">
+<title>忘年会2018</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<div id="lotTitle"></div>
+<div class="menu">
+    <form action="./php/Control.php" method="post" name="toLotImage">
+        <input type="hidden" name="pagePath" value="lotImage">
+        <input type="number" name="participants">
+    </form>
+</div>
+<script>
+    window.addEventListener('keydown', (function (e) {
+        if (e.code === 'Enter' || e.code === 'Space') {
+            document.forms['toLotImage'].submit();
+        }
+    }));
+</script>
 </html>

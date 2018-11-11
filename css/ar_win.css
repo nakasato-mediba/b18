@@ -1,0 +1,217 @@
+/* windows用css 自動で切り替わるようにはしていない */
+@media (max-aspect-ratio: 144/100) {
+    /* desktop window */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 26vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 26vh;
+        left: 19.5vw;
+        font-size: 30vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 26vh;
+        left: 60vw;
+        font-size: 30vh;
+    }
+}
+
+@media (min-aspect-ratio: 145/100) and (max-aspect-ratio: 160/100) {
+    /* mac full */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        font-size: 28vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 30vh;
+        left: 61vw;
+        font-size: 28vh;
+    }
+}
+
+@media (min-aspect-ratio: 161/100) and (max-aspect-ratio: 178/100) {
+    /* office full */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 28vh;
+        left: 21vw;
+        font-size: 32vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 28vh;
+        left: 61vw;
+        font-size: 32vh;
+    }
+}
+
+@media (min-aspect-ratio: 179/100) and (max-aspect-ratio: 197/100) {
+    /* office window */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 28vh;
+        left: 24vw;
+        font-size: 32vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 28vh;
+        left: 60vw;
+        font-size: 32vh;
+    }
+}
+
+@media (min-aspect-ratio: 198/100) and (max-aspect-ratio: 199/100) {
+    /* mac window */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 28vh;
+        left: 24vw;
+        font-size: 32vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 28vh;
+        left: 61vw;
+        font-size: 32vh;
+    }
+}
+
+@media (min-aspect-ratio: 199/100) and (max-aspect-ratio: 210/100) {
+    /* main panel */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 29vh;
+        left: 24vw;
+        font-size: 32vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 29vh;
+        left: 60vw;
+        font-size: 32vh;
+    }
+
+}
+
+@media (min-aspect-ratio: 211/100) and (max-aspect-ratio: 264/100) {
+    /* office window */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 26vh;
+        left: 25vw;
+        font-size: 34vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 26vh;
+        left: 59.5vw;
+        font-size: 34vh;
+    }
+}
+
+@media (min-aspect-ratio: 265/100) {
+    /* sub panel */
+    #premiumFrame {
+        width: 60vw;
+        height: 42vh;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #alp {
+        position: absolute;
+        top: 26vh;
+        left: 30vw;
+        font-size: 34vh;
+    }
+
+    #num {
+        position: absolute;
+        top: 26vh;
+        left: 57vw;
+        font-size: 34vh;
+    }
+}

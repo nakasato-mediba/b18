@@ -1,0 +1,75 @@
+* {
+    font-family: Marion;
+}
+
+html, body,form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    display: table-cell;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    color: rgb(225, 168, 0);
+    font-size: 20vh;
+}
+
+#lotTitle {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/gurigura.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#lotImage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/keihin.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#lotNumber {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/number.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#premium {
+    width: auto;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.imgFrame {
+    text-align: center;
+}
+
+.menu {
+    position: fixed;
+    top:80vh;
+}
