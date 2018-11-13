@@ -18,8 +18,8 @@ class Control
         } else if ($_POST["pagePath"] === "lotResult"){
             $this->actionLotResult();
         }else
-            // 例外
-        header('Location:../index.html');
+        // 例外
+        $this->actionIndex();// 仮
     }
 
     function actionIndex()
