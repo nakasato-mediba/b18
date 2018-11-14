@@ -10,7 +10,7 @@
 <div id="wrapper">
     <div id="lotImage">
         <div id="premiumFrame">
-            <img id="premium" src=""/>
+            <img id="premium" src="" alt=""/>
         </div>
     </div>
 </div>
@@ -32,9 +32,9 @@
 
         // 背景変更
         var bigChance = "<?php echo $_GET["bc"] ?>";
-        if(bigChance === "true"){
+        if (bigChance === "true") {
             lotImage.style.backgroundImage = "url('./img/nontan.jpeg')";
-        }else{
+        } else {
             lotImage.style.backgroundImage = "url('./img/keihin.jpg')";//TODO 高橋くんの画像待ち　背景を景品ごとに変える
         }
 
@@ -60,16 +60,14 @@
     window.addEventListener('keydown', (function (e) {
         if (e.code === 'Enter' || e.code === 'Space') {
             document.forms['toLotNumber'].submit();
-        }else if (e.code === 'Escape'){
+        } else if (e.code === 'Escape') {
             document.forms['toIndex'].submit();
         }
     }));
 
 
     function getWindowSize() {
-
         console.log('ウィンドウサイズの横幅 : ' + window.innerWidth);
-
         console.log('ウィンドウサイズの高さ : ' + window.innerHeight);
     }
 
