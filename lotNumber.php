@@ -20,12 +20,12 @@
     </div>
 </div>
 <div class="menu">
-    <form action="./php/Control.php" method="post" name="toLotResult">
+    <form action="controller/Control.php" method="post" name="toLotResult">
         <input type="hidden" name="pagePath" value="lotResult">
         <input type="hidden" id="hiddenWinner" name="winner" value="">
     </form>
 </div>
-<form action="./php/Control.php" method="get" name="toIndex"></form>
+<form action="controller/Control.php" method="get" name="toIndex"></form>
 <script>
 
     var max = <?php echo $_GET["max"] ?>;// 忘年会参加人数

@@ -20,11 +20,11 @@
     </div>
 </div>
 <div class="menu">
-    <form action="./php/Control.php" method="post" name="toLotImage">
+    <form action="controller/Control.php" method="post" name="toLotImage">
         <input type="hidden" name="pagePath" value="lotImage">
     </form>
 </div>
-<form action="./php/Control.php" method="get" name="toIndex"></form>
+<form action="controller/Control.php" method="get" name="toIndex"></form>
 </body>
 <script>
     window.onload = (function () {
@@ -33,9 +33,7 @@
     });
 
     window.addEventListener('keydown', (function (e) {
-        if (e.code === 'Enter' || e.code === 'Space') {
-            document.forms['toLotImage'].submit();
-        }else if (e.code === 'Escape'){
+        if (e.code === 'Enter' || e.code === 'Space' || e.code === 'Escape'){
             document.forms['toIndex'].submit();
         }
     }));

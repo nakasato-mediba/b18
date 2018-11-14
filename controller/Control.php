@@ -9,7 +9,6 @@ class Control
     function initialize()
     {
         if ($_SERVER["REQUEST_METHOD"] !== "POST") {
-            // 例外
             $this->actionIndex();
         } else if ($_POST["pagePath"] === "lotImage") {
             $this->actionLotImage();
@@ -17,22 +16,29 @@ class Control
             $this->actionLotNumber();
         } else if ($_POST["pagePath"] === "lotResult"){
             $this->actionLotResult();
-        }else
+        }else if ($_POST["pagePath"] === "manage"){
+            $this->actionManage();
+        } else
         // 例外
         $this->actionIndex();// 仮
     }
 
     function actionIndex()
     {
+        // 参加人数格納
+        if ($_POST["participants"]) {
+            $this->updateParticipants($_POST["participants"]);
+        }
+
+        // 当選情報リセット
+        if($_POST["reset"][0]){
+            copy('../asset/master_bk.json','../asset/master.json');
+        }
         header('Location:../index.html');
     }
 
     function actionLotImage()
     {
-        // 参加人数格納
-        if ($_POST["participants"]) {
-            $this->updateParticipants($_POST["participants"]);
-        }
         // 大当たりチェック
         $mData = $this->readMasterData();
         $url = "../lotImage.php";
@@ -112,5 +118,9 @@ class Control
         $file = fopen('../asset/participants.json', 'w+b');
         fwrite($file, json_encode($pp));
         fclose($file);
+    }
+
+    function actionManage(){
+        header('Location:../manage.php');
     }
 }

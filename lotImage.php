@@ -15,11 +15,13 @@
     </div>
 </div>
 <div class="menu">
-    <form action="./php/Control.php" method="post" name="toLotNumber">
+    <form action="controller/Control.php" method="post" name="toLotNumber">
         <input type="hidden" name="pagePath" value="lotNumber">
     </form>
 </div>
-<form action="./php/Control.php" method="get" name="toIndex"></form>
+<form action="controller/Control.php" method="post" name="toIndex">
+    <input type="hidden" name="pagePath" value="index">
+</form>
 <script>
     getWindowSize();
 

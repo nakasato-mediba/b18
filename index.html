@@ -5,16 +5,35 @@
 <link rel="stylesheet" type="text/css" href="css/common.css">
 <div id="lotTitle"></div>
 <div class="menu">
-    <form action="./php/Control.php" method="post" name="toLotImage">
+    <form action="controller/Control.php" method="post" name="toLotImage">
         <input type="hidden" name="pagePath" value="lotImage">
         <input type="number" name="participants">
     </form>
+    <form action="controller/Control.php" method="post" name="toManage">
+        <input type="hidden" name="pagePath" value="manage">
+    </form>
 </div>
 <script>
-    window.addEventListener('keydown', (function (e) {
+
+    document.onkeydown = pressFunction;
+    document.onkeyup = releaseFunction;
+    var keyStatus = {};
+
+    function pressFunction(e)
+    {
         if (e.code === 'Enter' || e.code === 'Space') {
             document.forms['toLotImage'].submit();
         }
-    }));
+
+        keyStatus[e.code] = true;
+        if(keyStatus['ShiftLeft'] && keyStatus['MetaRight']) {
+            document.forms['toManage'].submit();
+        }
+    }
+
+    function releaseFunction(e)
+    {
+        keyStatus[e.code] = false;
+    }
 </script>
 </html>
