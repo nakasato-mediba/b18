@@ -16,7 +16,9 @@ class Control
             $this->actionLotNumber();
         } else if ($_POST["pagePath"] === "lotResult"){
             $this->actionLotResult();
-        }else if ($_POST["pagePath"] === "manage"){
+        } else if($_POST["pagePath"] === "reLottery"){
+            $this->actionReLottery();
+        } else if ($_POST["pagePath"] === "manage"){
             $this->actionManage();
         } else
         // 例外
@@ -68,6 +70,11 @@ class Control
         header('Location:' . $url);
     }
 
+    function actionReLottery(){
+        $this->reLottery();
+        $this->actionLotNumber();
+    }
+
     // 各種抽選データ読み込み 返却値：jsonから既にデコード済み連想配列
     function readMasterData()
     {
@@ -80,22 +87,39 @@ class Control
     // 抽選データ書き込み
     function updateMasterData($winner)
     {
-        $elmNum = 0;
         $filePath = '../asset/master.json';
         $mData = $this->readMasterData();
         for ($i = 0; $i < sizeof($mData); $i++) {
             if ($mData[$i]["end"] === false) {
-                $elmNum = $i;
+                $mData[$i]["winner"] = $winner;
                 $mData[$i]["end"] = true;
                 break;
             }
         }
-        $mData[$elmNum]["winner"] = $winner;
         system('chmod -R 777 ' . $filePath);
         $masterFile = fopen($filePath, 'w+b');
         fwrite($masterFile, json_encode($mData));
         fclose($masterFile);
     }
+
+    function reLottery(){
+        $filePath = '../asset/master.json';
+        $mData = $this->readMasterData();
+        for($i = sizeof($mData); $i > 0;$i--){
+            if($mData[$i]["end"] === true){
+                $mData[$i]["winner"] = "";
+                $mData[$i]["end"] = false;
+                break;
+            }
+        }
+        system('chmod -R 777 ' . $filePath);
+        $masterFile = fopen($filePath, 'w+b');
+        fwrite($masterFile, json_encode($mData));
+        fclose($masterFile);
+    }
+
+
+
 
     // 参加人数格納用Json 読み取り
     function readParticipants()

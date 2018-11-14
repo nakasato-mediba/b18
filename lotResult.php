@@ -25,6 +25,9 @@
     </form>
 </div>
 <form action="controller/Control.php" method="get" name="toIndex"></form>
+<form action="controller/Control.php" method="post" name="toReLottery">
+    <input type="hidden" name="pagePath" value="reLottery">
+</form>
 </body>
 <script>
     window.onload = (function () {
@@ -37,6 +40,9 @@
             document.forms['toLotImage'].submit();
         }else if (e.code === 'Escape'){
             document.forms['toIndex'].submit();
+        }
+        if(e.code === 'Backspace'){
+            document.forms['toReLottery'].submit();
         }
     }));
 </script>
