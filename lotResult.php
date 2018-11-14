@@ -33,7 +33,9 @@
     });
 
     window.addEventListener('keydown', (function (e) {
-        if (e.code === 'Enter' || e.code === 'Space' || e.code === 'Escape'){
+        if (e.code === 'Enter' || e.code === 'Space') {
+            document.forms['toLotImage'].submit();
+        }else if (e.code === 'Escape'){
             document.forms['toIndex'].submit();
         }
     }));
