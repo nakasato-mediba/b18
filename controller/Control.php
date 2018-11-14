@@ -44,9 +44,14 @@ class Control
         // 大当たりチェック
         $mData = $this->readMasterData();
         $url = "../lotImage.php";
-        for($i = 0; $i < sizeof($mData); $i++){
+        for($i = 0; $i < sizeof($mData) + 1; $i++){
             if($mData[$i]["end"] === false){
                 if($mData[$i]["bigChance"] === true) $url = "../lotImage.php?bc=" . "true";
+                break;
+            }
+            // 全景品が終了したら特殊画像表示
+            if($i === 25){
+                $url = "../lotImage.php?endAll=" . "true";
                 break;
             }
         }

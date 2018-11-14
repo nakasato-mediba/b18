@@ -25,6 +25,8 @@
 <script>
     getWindowSize();
 
+    var bigChance = "<?php echo $_GET["bc"] ?>";
+    var endAll = "<?php echo $_GET["endAll"] ?>";
     // ※ Chromeデベロッパーツールの  Networkの　Disable Cacheをチェック
     // json読み込み
     window.onload = (function (handleLoad) {
@@ -33,10 +35,12 @@
         console.log('アスペクト比 : ' + Math.floor(ar * 100));
 
         // 背景変更
-        var bigChance = "<?php echo $_GET["bc"] ?>";
         if (bigChance === "true") {
             lotImage.style.backgroundImage = "url('./img/nontan.jpeg')";
-        } else {
+        } else if(endAll === "true") {
+            //全抽選終了
+            lotImage.style.backgroundImage = "url('./img/pajero.jpg')";
+        }else{
             lotImage.style.backgroundImage = "url('./img/keihin.jpg')";//TODO 高橋くんの画像待ち　背景を景品ごとに変える
         }
 
@@ -56,7 +60,9 @@
                 break;
             }
         }
-        premium.src = mData[idx].imgUrl;
+        if(endAll !== "true") {
+            premium.src = mData[idx].imgUrl;
+        }
     }));
 
     window.addEventListener('keydown', (function (e) {
