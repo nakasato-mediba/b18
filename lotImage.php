@@ -37,7 +37,7 @@
         if(endAll === "true") {
             endLockFlg = true;
             //全抽選終了
-            lotImage.style.backgroundImage = "url('./img/pajero.jpg')";
+            lotImage.style.backgroundImage = "url('./img/pajero.png')";
         }else{
             lotImage.style.backgroundImage = "url('./img/keihin.png')";//TODO 高橋くんの画像待ち　背景を景品ごとに変える
         }

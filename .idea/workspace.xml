@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e0102b-292c-46d2-a4f2-b25e77e2ab27" name="デフォルト" comment="">
+      <change afterPath="$PROJECT_DIR$/img/pajero.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/master.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/master.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/07.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/Control.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Control.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lotImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lotImage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,55 +20,92 @@
     <favorites_list name="b18" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="100.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/100.png">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="214">
+      <file leaf-file-name="congrats.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/congrats.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_bk.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asset/master_bk.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1849">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asset/master.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="231" selection-start-column="231" selection-end-column="231" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lotImage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lotImage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="42" selection-start-line="39" selection-start-column="67" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pajero.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/pajero.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="16.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/16.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="Control.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/Control.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-559">
+              <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="13.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/13.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="14.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/14.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="17.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/17.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="ar_win.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/ar_win.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="18.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/18.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="19.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/19.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="21.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/21.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="22.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/img/22.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="12.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/12.png">
-          <provider selected="true" editor-type-id="images" />
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -162,11 +185,11 @@
         <option value="$PROJECT_DIR$/congrats.php" />
         <option value="$PROJECT_DIR$/asset/master.json" />
         <option value="$PROJECT_DIR$/lotNumber.php" />
-        <option value="$PROJECT_DIR$/controller/Control.php" />
-        <option value="$PROJECT_DIR$/lotImage.php" />
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/asset/master_bk.json" />
         <option value="$PROJECT_DIR$/css/ar.css" />
+        <option value="$PROJECT_DIR$/lotImage.php" />
+        <option value="$PROJECT_DIR$/controller/Control.php" />
       </list>
     </option>
   </component>
@@ -188,9 +211,8 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="47" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="820" />
   </component>
@@ -208,26 +230,6 @@
             <path>
               <item name="b18" type="b2602c69:ProjectViewProjectNode" />
               <item name="b18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="b18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b18" type="462c0819:PsiDirectoryNode" />
-              <item name="asset" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="b18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b18" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="b18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b18" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="b18" type="b2602c69:ProjectViewProjectNode" />
-              <item name="b18" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,12 +249,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -294,16 +296,15 @@
       <workItem from="1542342761430" duration="7000" />
       <workItem from="1542342849141" duration="1214000" />
       <workItem from="1543282863412" duration="9466000" />
-      <workItem from="1543372049573" duration="2518000" />
+      <workItem from="1543372049573" duration="4426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62510000" />
+    <option name="totallyTimeSpent" value="64418000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="820" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -311,7 +312,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.17453505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.18383405" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
@@ -331,7 +332,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.17453505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979253" visible="true" weight="0.18383405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -359,8 +360,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/抽選デザイン_アートボード 1 のコピー 4.png" />
-    <entry file="file://$PROJECT_DIR$/img/抽選デザイン_アートボード 1 のコピー 3.png" />
     <entry file="file://$PROJECT_DIR$/img/抽選デザイン-06.png" />
     <entry file="file://$PROJECT_DIR$/img/抽選デザイン_アートボード 1 のコピー 2.png" />
     <entry file="file://$PROJECT_DIR$/img/who.jpg" />
@@ -371,20 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/ar_win.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-353">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -412,24 +397,10 @@
     <entry file="file://$PROJECT_DIR$/img/keihin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/congrats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lotNumber.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124">
           <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lotImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -440,46 +411,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asset/master_bk.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asset/master.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="350" selection-start-column="350" selection-end-column="350" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/Control.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/06.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/01.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/ar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/08.png">
       <provider selected="true" editor-type-id="images" />
@@ -523,9 +459,6 @@
     <entry file="file://$PROJECT_DIR$/img/12.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/100.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/13.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -549,6 +482,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/22.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/24.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ar_win.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lotImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="42" selection-start-line="39" selection-start-column="67" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/pajero.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/master.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="231" selection-start-column="231" selection-end-column="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/congrats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Control.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-559">
+          <caret line="94" column="49" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/master_bk.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1849">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

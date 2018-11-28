@@ -86,8 +86,11 @@ class Control
             if($mData[$i]["end"] === false){
                 $img = $mData[$i - 1]["imgUrl"];
                 break;
+            }else if($i === sizeof($mData) - 1){
+                // 配列の最後の要素の場合も画像を表示
+                $img = $mData[$i]["imgUrl"];
+                break;
             }
-            // エラー処理無いけどとりあえずおｋ
         }
         $url = "../congrats.php?winner=" . $winner . "&img=" . $img;
         header('Location:' . $url);

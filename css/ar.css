@@ -53,3 +53,7 @@
         left: 49vw;
     }
 }
+@media (min-aspect-ratio: 145/100) and (max-aspect-ratio: 160/100){
+    /* 1280 * 648 */
+    /* 1280 * 721 */
+}
