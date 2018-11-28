@@ -2,51 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e0102b-292c-46d2-a4f2-b25e77e2ab27" name="デフォルト" comment="">
-      <change afterPath="$PROJECT_DIR$/congrats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bigChance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/congrats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/keihin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/question.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/b18.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/b18.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/master.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/master.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/master_bk.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/master_bk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/Control.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/Control.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/06.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/keihin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/who.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lotImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/lotImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lotNumber.php" beforeDir="false" afterPath="$PROJECT_DIR$/lotNumber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lotResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/lotResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/07.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/16.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,89 +35,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lotResult.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lotResult.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-            </state>
-          </provider>
+      <file leaf-file-name="100.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/100.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="congrats.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/congrats.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
+      <file leaf-file-name="16.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/16.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="master_bk.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/master_bk.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-            </state>
-          </provider>
+      <file leaf-file-name="13.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/13.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="master.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/master.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="350" selection-start-column="350" selection-end-column="350" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ar.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/ar.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lotNumber.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lotNumber.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lotImage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lotImage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Control.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/Control.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
-            </state>
-          </provider>
+      <file leaf-file-name="14.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/14.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="17.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/17.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="18.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/18.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="19.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/19.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="21.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/21.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="22.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/22.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="12.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/12.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -355,12 +294,12 @@
       <workItem from="1542342761430" duration="7000" />
       <workItem from="1542342849141" duration="1214000" />
       <workItem from="1543282863412" duration="9466000" />
-      <workItem from="1543372049573" duration="1545000" />
+      <workItem from="1543372049573" duration="2518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61537000" />
+    <option name="totallyTimeSpent" value="62510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
@@ -420,17 +359,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/抽選デザイン_アートボード 1 のコピー 5.png" />
     <entry file="file://$PROJECT_DIR$/img/抽選デザイン_アートボード 1 のコピー 4.png" />
     <entry file="file://$PROJECT_DIR$/img/抽選デザイン_アートボード 1 のコピー 3.png" />
     <entry file="file://$PROJECT_DIR$/img/抽選デザイン-06.png" />
@@ -473,72 +401,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/pajero.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/02.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/04.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/06.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/07.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/08.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/14.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/18.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/19.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/20.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/21.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/23.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/13.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/09.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/22.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/12.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/16.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/question.png">
@@ -592,9 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/17.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/Control.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -609,12 +468,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/ar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="525">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/08.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/09.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/23.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/04.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/07.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/08.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/09.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/12.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/100.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/14.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/17.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/18.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/19.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/21.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/22.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">
