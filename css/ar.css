@@ -1,183 +1,55 @@
 
 @media (min-aspect-ratio: 145/100) and (max-aspect-ratio: 160/100){
-    /* mac full */
+    /* mac full 本番 1280 * 800 */
     #premiumFrame{
-        width: 60vw;
-        height: 42vh;
+        width: 45.9vw;
+        height: 45.9vw;
         position: absolute;
-        top: 30vh;
-        left: 20vw;
+        top: 14.4vh;
+        left: 27vw;
         right: 20vw;
         bottom: 0;
     }
 
-    #alp {
-        position: absolute;
-        top:36vh;
-        left: 19vw;
-        font-size: 40vh;
-    }
-    #num {
-        position: absolute;
-        top: 36vh;
-        left: 61.5vw;
-        font-size: 38vh;
-    }
-}
-
-@media (min-aspect-ratio: 161/100) and (max-aspect-ratio: 178/100){
-    /* office full */
-    #premiumFrame{
-        width: 60vw;
-        height: 42vh;
-        position: absolute;
-        top: 30vh;
-        left: 20vw;
-        right: 20vw;
-        bottom: 0;
+    #premium {
+        width: 46vw;
+        /* opacity: 0.8; */
     }
 
     #alp {
-        position: absolute;
-        top:34vh;
-        left: 20vw;
-        font-size: 42vh;
-    }
-    #num {
-        position: absolute;
-        top: 34vh;
-        left: 62.5vw;
-        font-size: 40vh;
-    }
-}
-
-@media (min-aspect-ratio: 179/100) and (max-aspect-ratio: 197/100){
-    /* office window */
-    #premiumFrame{
-        width: 60vw;
-        height: 42vh;
-        position: absolute;
-        top: 30vh;
-        left: 20vw;
-        right: 20vw;
-        bottom: 0;
-    }
-
-    #alp {
+        width: 25vw;
+        text-align: center;
         position: absolute;
         top:35vh;
-        left: 24vw;
-        font-size: 42vh;
+        left: 15vw;
+        font-size: 40vh;
     }
     #num {
+        width: 25vw;
+        text-align: center;
         position: absolute;
-        top: 34vh;
+        top: 35vh;
         left: 60.5vw;
-        font-size: 40vh;
-    }
-}
-
-@media (min-aspect-ratio: 198/100) and (max-aspect-ratio: 199/100){
-    /* mac window */
-    #premiumFrame{
-        width: 60vw;
-        height: 42vh;
-        position: absolute;
-        top: 30vh;
-        left: 20vw;
-        right: 20vw;
-        bottom: 0;
-    }
-
-    #alp {
-        position: absolute;
-        top:34vh;
-        left: 22vw;
-        font-size: 40vh;
-    }
-    #num {
-        position: absolute;
-        top: 34vh;
-        left: 61vw;
         font-size: 38vh;
     }
-}
-
-@media (min-aspect-ratio: 199/100) and (max-aspect-ratio: 210/100){
-    /* main panel */
-    #premiumFrame{
-        width: 60vw;
-        height: 42vh;
+    #alp_c {
         position: absolute;
-        top: 30vh;
-        left: 20vw;
-        right: 20vw;
-        bottom: 0;
+        top:40vh;
+        left: 7vw;
+        font-size: 26vh;
     }
-
-    #alp {
+    #num_c {
+        text-align: center;
+        width: 19vw;
         position: absolute;
-        top:33vh;
-        left: 22.5vw;
-        font-size: 44vh;
+        top: 40vh;
+        left: 25.8vw;
+        font-size: 26vh;
     }
-    #num {
+    #lotImage_c {
+        width: 48vw;
         position: absolute;
-        top: 33vh;
-        left: 61vw;
-        font-size: 42vh;
-    }
-
-}
-@media (min-aspect-ratio: 211/100) and (max-aspect-ratio: 264/100){
-    /* office window */
-    #premiumFrame{
-        width: 60vw;
-        height: 42vh;
-        position: absolute;
-        top: 30vh;
-        left: 20vw;
-        right: 20vw;
-        bottom: 0;
-    }
-
-    #alp {
-        position: absolute;
-        top:33vh;
-        left: 24.5vw;
-        font-size: 42vh;
-    }
-    #num {
-        position: absolute;
-        top: 33vh;
-        left: 60.5vw;
-        font-size: 40vh;
-    }
-}
-
-
-@media (min-aspect-ratio: 265/100){
-    /* sub panel */
-    #premiumFrame{
-        width: 60vw;
-        height: 42vh;
-        position: absolute;
-        top: 30vh;
-        left: 20vw;
-        right: 20vw;
-        bottom: 0;
-    }
-
-    #alp {
-        position: absolute;
-        top:33vh;
-        left: 29vw;
-        font-size: 44vh;
-    }
-    #num {
-        position: absolute;
-        top: 33vh;
-        left: 58vw;
-        font-size: 42vh;
+        top: 12vh;
+        left: 49vw;
     }
 }

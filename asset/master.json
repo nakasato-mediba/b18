@@ -30,7 +30,7 @@
   {
     "id": 5,
     "winner": "",
-    "imgUrl": "./img/05.png",
+    "imgUrl": "./img/question.png",
     "bigChance": true,
     "end": false
   },
@@ -65,7 +65,7 @@
   {
     "id": 10,
     "winner": "",
-    "imgUrl": "./img/10.png",
+    "imgUrl": "./img/question.png",
     "bigChance": true,
     "end": false
   },
@@ -100,7 +100,7 @@
   {
     "id": 15,
     "winner": "",
-    "imgUrl": "./img/15.png",
+    "imgUrl": "./img/question.png",
     "bigChance": true,
     "end": false
   },
@@ -135,7 +135,7 @@
   {
     "id": 20,
     "winner": "",
-    "imgUrl": "./img/20.png",
+    "imgUrl": "./img/question.png",
     "bigChance": true,
     "end": false
   },
@@ -170,7 +170,7 @@
   {
     "id": 25,
     "winner": "",
-    "imgUrl": "./img/25.png",
+    "imgUrl": "./img/question.png",
     "bigChance": true,
     "end": false
   }

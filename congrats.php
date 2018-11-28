@@ -7,24 +7,21 @@
     <link rel="stylesheet" type="text/css" href="./css/ar.css">
     <script>
         const char = 'A'.charCodeAt(0);
+        var imgUrl = "<?php echo $_GET["img"] ?>";
         var winner = "<?php echo $_GET["winner"] ?>";
         var alphabet = String.fromCharCode(char + (Math.floor(winner / 20)));
         var number = ("00" + (winner % 20 + 1)).slice(-2);
     </script>
 </head>
 <body>
-<div id="lotNumber">
-    <div id="numberFrame">
-        <div id="alp" class="item"></div>
-        <div id="num" class="item"></div>
-    </div>
+<div id="congrats">
+    <div id="alp_c" class="item"></div>
+    <div id="num_c" class="item"></div>
+    <img id="lotImage_c" src="" />
 </div>
-<div class="menu">
-    <form action="controller/Control.php" method="post" name="toCongrats">
-        <input type="hidden" name="pagePath" value="congrats">
-        <input type="hidden" id="hiddenWinner" name="winner" value="">
-    </form>
-</div>
+<form action="controller/Control.php" method="post" name="toLotImage">
+    <input type="hidden" name="pagePath" value="lotImage">
+</form>
 <form action="controller/Control.php" method="get" name="toIndex"></form>
 <form action="controller/Control.php" method="post" name="toReLottery">
     <input type="hidden" name="pagePath" value="reLottery">
@@ -32,18 +29,18 @@
 </body>
 <script>
     window.onload = (function () {
-        alp.innerText = alphabet;
-        num.innerText = number;
-        document.getElementById("hiddenWinner").value = winner;
+        alp_c.innerText = alphabet;
+        num_c.innerText = number;
+        lotImage_c.src= imgUrl;
     });
 
     window.addEventListener('keydown', (function (e) {
         if (e.code === 'Enter' || e.code === 'Space') {
-            document.forms['toCongrats'].submit();
-        }else if (e.code === 'Escape'){
+            document.forms['toLotImage'].submit();
+        } else if (e.code === 'Escape') {
             document.forms['toIndex'].submit();
         }
-        if(e.code === 'Backspace'){
+        if (e.code === 'Backspace') {
             document.forms['toReLottery'].submit();
         }
     }));

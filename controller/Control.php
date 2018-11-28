@@ -10,19 +10,21 @@ class Control
     {
         if ($_SERVER["REQUEST_METHOD"] !== "POST") {
             $this->actionIndex();
-        } else if ($_POST["pagePath"] === "lotImage") {
+        } elseif ($_POST["pagePath"] === "lotImage") {
             $this->actionLotImage();
-        } else if ($_POST["pagePath"] === "lotNumber") {
+        } elseif ($_POST["pagePath"] === "lotNumber") {
             $this->actionLotNumber();
-        } else if ($_POST["pagePath"] === "lotResult"){
+        } elseif ($_POST["pagePath"] === "lotResult") {
             $this->actionLotResult();
-        } else if($_POST["pagePath"] === "reLottery"){
+        } elseif ($_POST["pagePath"] === "congrats"){
+            $this->actionCongrats();
+        } elseif ($_POST["pagePath"] === "reLottery") {
             $this->actionReLottery();
-        } else if ($_POST["pagePath"] === "manage"){
+        } elseif ($_POST["pagePath"] === "manage") {
             $this->actionManage();
         } else
-        // 例外
-        $this->actionIndex();// 仮
+            // 例外
+            $this->actionIndex();// 仮
     }
 
     function actionIndex()
@@ -41,12 +43,11 @@ class Control
 
     function actionLotImage()
     {
-        // 大当たりチェック
-        $mData = $this->readMasterData();
         $url = "../lotImage.php";
+        // 抽選終了チェック
+        $mData = $this->readMasterData();
         for($i = 0; $i < sizeof($mData) + 1; $i++){
             if($mData[$i]["end"] === false){
-                if($mData[$i]["bigChance"] === true) $url = "../lotImage.php?bc=" . "true";
                 break;
             }
             // 全景品が終了したら特殊画像表示
@@ -70,8 +71,25 @@ class Control
     function actionLotResult()
     {
         $winner = $_POST["winner"];
+        $img = "./...";
         $this->updateMasterData($winner);
         $url = "../lotResult.php?winner=" . $winner;
+        header('Location:' . $url);
+    }
+
+    function actionCongrats(){
+        // 画像url取得する必要あり
+        $img = "";
+        $winner = $_POST["winner"];
+        $mData = $this->readMasterData();
+        for($i = 0; $i < sizeof($mData) + 1; $i++){
+            if($mData[$i]["end"] === false){
+                $img = $mData[$i - 1]["imgUrl"];
+                break;
+            }
+            // エラー処理無いけどとりあえずおｋ
+        }
+        $url = "../congrats.php?winner=" . $winner . "&img=" . $img;
         header('Location:' . $url);
     }
 
@@ -122,9 +140,6 @@ class Control
         fwrite($masterFile, json_encode($mData));
         fclose($masterFile);
     }
-
-
-
 
     // 参加人数格納用Json 読み取り
     function readParticipants()

@@ -19,6 +19,7 @@
         <div id="num" class="item">02</div>
     </div>
 </div>
+
 <div class="menu">
     <form action="controller/Control.php" method="post" name="toLotResult">
         <input type="hidden" name="pagePath" value="lotResult">
@@ -67,7 +68,6 @@
             }
             console.log("再抽選：" + random)
         }
-        // ToDo ここでTrueとかFalseが出てくるのやばすぎ A00の原因 解決済み？
         // 抽選結果いれま
         document.getElementById("hiddenWinner").value = random;
         winAlp = String.fromCharCode(char + Math.floor(random / 20));
@@ -107,7 +107,6 @@
         turnNum = turnNum < 20 ? turnNum + 1 : 1;
         num.innerText = ("00" + turnNum).slice(-2);
     }
-
 
     function lotStop() {
         if (alpStopFlg === false) {

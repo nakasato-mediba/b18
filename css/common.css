@@ -32,7 +32,7 @@ body {
 #lotTitle {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/gurigura.jpg");
+    background-image: url("../img/index.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
 #lotImage {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/keihin.jpg");
+    background-image: url("../img/keihin.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
@@ -59,10 +59,14 @@ body {
     background-attachment: fixed;
 }
 
-#premium {
-    width: auto;
-    height: 100%;
-    opacity: 0.8;
+#congrats{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/congrats.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .imgFrame {
@@ -72,4 +76,9 @@ body {
 .menu {
     position: fixed;
     top:80vh;
+}
+
+.item {
+    color: rgb(225, 168, 0);
+    font-size: 10vh;
 }

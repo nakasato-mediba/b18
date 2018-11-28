@@ -24,8 +24,7 @@
 </form>
 <script>
     getWindowSize();
-
-    var bigChance = "<?php echo $_GET["bc"] ?>";
+    var endLockFlg = false;
     var endAll = "<?php echo $_GET["endAll"] ?>";
     // ※ Chromeデベロッパーツールの  Networkの　Disable Cacheをチェック
     // json読み込み
@@ -35,13 +34,12 @@
         console.log('アスペクト比 : ' + Math.floor(ar * 100));
 
         // 背景変更
-        if (bigChance === "true") {
-            lotImage.style.backgroundImage = "url('./img/nontan.jpeg')";
-        } else if(endAll === "true") {
+        if(endAll === "true") {
+            endLockFlg = true;
             //全抽選終了
             lotImage.style.backgroundImage = "url('./img/pajero.jpg')";
         }else{
-            lotImage.style.backgroundImage = "url('./img/keihin.jpg')";//TODO 高橋くんの画像待ち　背景を景品ごとに変える
+            lotImage.style.backgroundImage = "url('./img/keihin.png')";//TODO 高橋くんの画像待ち　背景を景品ごとに変える
         }
 
         // json読み込み
@@ -66,7 +64,7 @@
     }));
 
     window.addEventListener('keydown', (function (e) {
-        if (e.code === 'Enter' || e.code === 'Space') {
+        if ((endLockFlg === false) && (e.code === 'Enter' || e.code === 'Space')) {
             document.forms['toLotNumber'].submit();
         } else if (e.code === 'Escape') {
             document.forms['toIndex'].submit();
