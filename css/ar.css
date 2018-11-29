@@ -53,7 +53,58 @@
         left: 49vw;
     }
 }
-@media (min-aspect-ratio: 145/100) and (max-aspect-ratio: 160/100){
-    /* 1280 * 648 */
-    /* 1280 * 721 */
+@media (min-aspect-ratio: 160/100) and (max-aspect-ratio: 190/100){
+    /* mac full 本番 1280 * 800 */
+    #premiumFrame{
+        width: 45.9vw;
+        height: 45.9vw;
+        position: absolute;
+        top: 10.4vh;
+        left: 27vw;
+        right: 20vw;
+        bottom: 0;
+    }
+
+    #premium {
+        width: 46vw;
+        /* opacity: 0.8; */
+    }
+
+    #alp {
+        width: 25vw;
+        text-align: center;
+        position: absolute;
+        top:33vh;
+        left: 15vw;
+        font-size: 44vh;
+    }
+    #num {
+        width: 25vw;
+        text-align: center;
+        position: absolute;
+        top: 33vh;
+        left: 60.5vw;
+        font-size: 42vh;
+    }
+    #alp_c {
+        position: absolute;
+        top: 38vh;
+        left: 7vw;
+        font-size: 32vh;
+    }
+    #num_c {
+        text-align: center;
+        width: 19vw;
+        position: absolute;
+        top: 38vh;
+        left: 26vw;
+        font-size: 32vh;
+    }
+
+    #lotImage_c {
+        width: 48vw;
+        position: absolute;
+        top: 7vh;
+        left: 49vw;
+    }
 }
