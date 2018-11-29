@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0e0102b-292c-46d2-a4f2-b25e77e2ab27" name="デフォルト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asset/master.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset/master.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/ar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,8 +79,8 @@
       <file leaf-file-name="ar.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/ar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+            <state relative-caret-position="606">
+              <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -208,11 +206,11 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="849" />
-    <option name="y" value="288" />
-    <option name="width" value="1144" />
-    <option name="height" value="689" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="57" />
+    <option name="y" value="48" />
+    <option name="width" value="1411" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="追加" />
@@ -301,15 +299,15 @@
       <workItem from="1543282863412" duration="9466000" />
       <workItem from="1543372049573" duration="4866000" />
       <workItem from="1543395643932" duration="724000" />
-      <workItem from="1543461699608" duration="1319000" />
+      <workItem from="1543461699608" duration="1693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66901000" />
+    <option name="totallyTimeSpent" value="67275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="849" y="288" width="1144" height="689" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979253" weight="0.23887375" />
@@ -557,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/ar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        <state relative-caret-position="606">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="15" selection-end-line="166" selection-end-column="15" />
         </state>
       </provider>
     </entry>
