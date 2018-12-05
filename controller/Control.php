@@ -20,6 +20,8 @@ class Control
             $this->actionCongrats();
         } elseif ($_POST["pagePath"] === "reLottery") {
             $this->actionReLottery();
+        } elseif ($_POST["pagePath"] === "skip"){
+            $this->actionSkip();
         } elseif ($_POST["pagePath"] === "manage") {
             $this->actionManage();
         } else
@@ -51,7 +53,7 @@ class Control
                 break;
             }
             // 全景品が終了したら特殊画像表示
-            if($i === 25){
+            if($i === 26){
                 $url = "../lotImage.php?endAll=" . "true";
                 break;
             }
@@ -71,7 +73,6 @@ class Control
     function actionLotResult()
     {
         $winner = $_POST["winner"];
-        $img = "./...";
         $this->updateMasterData($winner);
         $url = "../lotResult.php?winner=" . $winner;
         header('Location:' . $url);
@@ -99,6 +100,11 @@ class Control
     function actionReLottery(){
         $this->reLottery();
         $this->actionLotNumber();
+    }
+
+    function actionSkip(){
+        $this->updateMasterData("-1");
+        $this->actionLotImage();
     }
 
     // 各種抽選データ読み込み 返却値：jsonから既にデコード済み連想配列

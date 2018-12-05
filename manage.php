@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <meta charset="UTF-8">
+<meta http-equiv=“Cache-Control” content=“no-cache”>
 <title>忘年会2018</title>
 <style type="text/css">
     .textBox {
@@ -29,6 +30,5 @@
             document.forms['cancel'].submit();
         }
     }));
-
 </script>
 </html>

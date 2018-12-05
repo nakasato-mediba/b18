@@ -113,7 +113,7 @@
 
 /* mac full 本番 1280 * 800 */
 
-@media (min-aspect-ratio: 1280/900) and (max-aspect-ratio: 1280/700){
+@media (min-aspect-ratio: 1280/900) and (max-aspect-ratio: 1280/740){
     /* mac full 本番 1280 * 800 */
     #premiumFrame{
         width: 45.9vw;

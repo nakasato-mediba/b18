@@ -173,5 +173,12 @@
     "imgUrl": "./img/question.png",
     "bigChance": true,
     "end": false
+  },
+  {
+    "id": 26,
+    "winner": "",
+    "imgUrl": "./img/question.png",
+    "bigChance": true,
+    "end": false
   }
 ]

@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv=“Cache-Control” content=“no-cache”>
     <title>忘年会2018</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/ar.css">
@@ -21,6 +22,12 @@
 </div>
 <form action="controller/Control.php" method="post" name="toIndex">
     <input type="hidden" name="pagePath" value="index">
+</form>
+<form action="controller/Control.php" method="post" name="toReLottery">
+    <input type="hidden" name="pagePath" value="reLottery">
+</form>
+<form action="controller/Control.php" method="post" name="toSkip">
+    <input type="hidden" name="pagePath" value="skip">
 </form>
 <script>
     getWindowSize();
@@ -68,6 +75,10 @@
             document.forms['toLotNumber'].submit();
         } else if (e.code === 'Escape') {
             document.forms['toIndex'].submit();
+        } else if (e.code === 'Backspace'){
+            document.forms['toReLottery'].submit();
+        } else if (e.code === 'KeyS'){
+            document.forms['toSkip'].submit();
         }
     }));
 
